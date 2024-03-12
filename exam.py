@@ -15,5 +15,5 @@ def main():
     grade = calculate_grade(mark)
     print("Exam grade:", grade)
 
-if __name__ == "__main__":
-    main()
+
+main()
