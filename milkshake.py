@@ -30,6 +30,7 @@ while True:
       print("Enjoy your Mango milkshake, your new balance is", balance)
     else:
       print("You're broke, go home")
+      break
   elif choice == 5:
     break
   else:
