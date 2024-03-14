@@ -1,4 +1,4 @@
-# Part 2
+
 class StudentWithClass:
     def __init__(self, name, age, current_class=None):
         self.name = name
@@ -14,13 +14,13 @@ class StudentWithClass:
             return 0
         return sum(self.test_scores) / len(self.test_scores)
 
-# Create a student with class
+
 student_with_class = StudentWithClass("Charlie", 19, "Math")
 
-# Add test scores
+
 student_with_class.add_test_score(85)
 student_with_class.add_test_score(90)
 student_with_class.add_test_score(88)
 
-# Calculate average test score
+
 print(student_with_class.calculate_average_score())
