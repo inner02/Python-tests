@@ -1,4 +1,4 @@
-# Part 3
+
 class Bird:
     def __init__(self, species):
         self.species = species
@@ -20,7 +20,7 @@ class Dodo(Bird):
     def extinct(self):
         print("Dodo is extinct.")
 
-# Example usage
+
 owl = Owl()
 owl.fly()
 owl.hoot()
